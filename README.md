@@ -1,3 +1,6 @@
+# QT-QML Assignment
+Ananthu S Ajayan
+24275
 # counter
 This is the code for the Counter logic.I have implemented using the thread functionality.
 Here we have implemented three buttons for start,stop and restart.
