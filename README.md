@@ -15,3 +15,15 @@ thread->start from the restart button.Then the counter will again start from 0.
 This is how the counter logic works.
 The reason for implementing this code is that it was executing by use of thread.So there was a proper 
 organization for the code while implementing these start,stop and restart button
+
+# qmllanguage
+
+This is the code for translation from one langauge to other language.Here we have given a combo box of 
+four languages which consist of hindi,malayalam,kannada and english.
+So when we select each option coressponding english translation will be converted to other language translation.
+So for implementing translation for each language,first we have to create a ts file inside the project definition.
+After that we perform a lupdate translation to the project file,then open linguist and open the ts file inside the linguist.
+Then do the corresponding translation for each word inside that,After performing that we release the translation.
+Then the corresponding qml file will be generated for that language.
+The reason for implementing this code,it supports translation from one to another language using the lupdate and lrelease translation.
+So its easier to do the translation by using the ql-qml.
