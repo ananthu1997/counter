@@ -17,7 +17,6 @@ The reason for implementing this code is that it was executing by use of thread.
 organization for the code while implementing these start,stop and restart button
 
 # qmllanguage
-
 This is the code for translation from one langauge to other language.Here we have given a combo box of 
 four languages which consist of hindi,malayalam,kannada and english.
 So when we select each option coressponding english translation will be converted to other language translation.
@@ -27,3 +26,11 @@ Then do the corresponding translation for each word inside that,After performing
 Then the corresponding qml file will be generated for that language.
 The reason for implementing this code,it supports translation from one to another language using the lupdate and lrelease translation.
 So its easier to do the translation by using the ql-qml.
+
+# property_binding
+This is the code for signal-slot propert binding,where there are two buttons like sender and reciever.When we click on sender button it sends
+a signal to the reciever , and inside the reciever we will increment the count and also we are providing an animation
+inside the reciever button.We are also providing animation at the sender button.So each time when button is clicked the animation 
+is also changing corespondingly.
+The reason for implementing this code is to understand the working of signal-slot and also implement the sequential animation
+to the code.
